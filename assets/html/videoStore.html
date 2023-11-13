@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Video Store JS</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="videoStore.html">Video Store</a></li>
+            <li><a href="carStore.html">Car store</a></li>
+            <li><a href="restaurant.html">Restaurant</a></li>
+            <li><a href="drugStore.html">Drug Store</a></li>
+            <li><a href="lanHouse.html">Lan House</a></li>
+            <li><a href="supermarket.html">Supermarket</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="/assets/img/videostore.png" alt="">
+        <h1>Video Store JS</h1>
+        <p>Enter Movie tittle:
+            <input placeholder="Movie's title" type="text" id="inTittle"><br>
+        </p>
+        <p>Enter Duration(minute):
+            <input placeholder="Movie's Duration" type="text" id="inDuration"><br><br>
+        </p>
+        <!-- button -> min to hour -->
+        <input id="button" type="button" value="Convert minutes to hours"><br><br>
+        <div class="span-group">
+            <span id="messageTittle"></span> <br><br>
+            <span id="messageTime"></span>
+        </div>
+    </div>
+
+    <script src="/assets/js/videoStores-script.js"></script>
+</body>
+
+</html>

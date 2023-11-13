@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <title>Restaurant JS</title>
+</head>
+
+<body>
+    <nav>
+        <ul>
+            <li><a href="videoStore.html">Video Store</a></li>
+            <li><a href="carStore.html">Car store</a></li>
+            <li><a href="restaurant.html">Restaurant</a></li>
+            <li><a href="drugStore.html">Drug Store</a></li>
+            <li><a href="lanHouse.html">Lan House</a></li>
+            <li><a href="supermarket.html">Supermarket</a></li>
+        </ul>
+    </nav>
+    <div class="container">
+        <img src="/assets/img/restaurant.png" alt="">
+        <h1>Restaurant JS</h1>
+        <p>Enter price per kilo: 
+            <input placeholder="Price per kilo" type="text" id="inPriceKg"><br>
+        </p>
+        <p>Enter the consumption(Gram): 
+            <input placeholder="Gram" type="text" id="inGram"><br><br>
+        </p>
+
+        <input id="button" type="button" value="Calculate price"><br><br>
+        <div class="span-group">
+            <span id="outValueToPay"></span>
+        </div>
+    </div>
+
+    <script src="/assets/js/restaurant-script.js"></script>
+</body>
+
+</html>

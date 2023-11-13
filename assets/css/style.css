@@ -1,0 +1,68 @@
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: 1000;
+}
+
+#button:hover {
+    color: green;
+}
+
+#button {
+    cursor: pointer;
+}
+
+h1 {
+    border: 1rem black;
+    color: yellow;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 2rem;
+}
+
+nav{
+    height: 8vh;
+    background-color: whitesmoke;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-flex;
+    margin-left: 100px; /*position of my nav tittle*/
+    text-align: center;
+} 
+
+nav ul li a{
+    text-align: center;
+    text-decoration: none;
+    font-size: 15px;
+    color: black;
+}
+
+img {
+    height: 200px;
+}
+
+body {
+    background: rgba(0, 0, 0, 0.3);
+}
+.span-group:hover {
+    color: green;
+}
+
+input::placeholder {
+    background-color: #DBD7A0;
+}
+
+input {
+    background-color: #DBD7A0;
+    border-radius: 0;
+    border: 0 none;
+}
+
